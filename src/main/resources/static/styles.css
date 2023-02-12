@@ -36,6 +36,11 @@
     text-align: left;
 }
 
+.mid-space {
+    width: 80%;
+    padding: 0px 200px;
+}
+
 .right {
     background-color:#b53131;
     float:right;
@@ -67,6 +72,15 @@
     display: inline-block;
 }
 
+.right-new-new {
+    float:right;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align: left;
+    display: inline-block;
+}
+
 .left-new {
     float:left;
     width:60%;
@@ -75,6 +89,16 @@
     text-align: left;
     display: inline-block;
 }
+
+.left-new-new {
+    float:left;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align: left;
+    display: inline-block;
+}
+
 
 .main-right {
     float: left;
@@ -164,18 +188,49 @@
 }
 
 .portrait {
-   height: 190px;
-    width: 250px;
+    padding:5px;
+   height: 280px;
+    width: 350px;
     display: flex;
     justify-content: center;
 }
 
 .left-picture {
     float: left;
+    display: flex;
     width: 8%;
-    padding:0px 20px;
+}
+
+.right-picture {
+    float: right;
+    display: flex;
+    width: 16%;
+}
+
+.right-picture-new {
+    float: right;
+    display: flex;
+    width: 56%;
+}
+
+.left-picture-text {
+    display: flex;
+    float: right;
+    width: 86%;
+}
+
+
+.right-picture-text {
+    text-align: right;
+    padding: 0px 30px;
+    float: right;
+    width: 46%;
 }
 
 .cursive {
     font-style: italic;
+}
+
+.list {
+    width: 65%;
 }
